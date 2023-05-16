@@ -3,6 +3,11 @@
  */
 public class Boot extends LakeObject
 {
+
+  public Boot() {
+    super();
+    super.setCost(0);
+  }
     @Override
     public String say()
     {
@@ -13,4 +18,5 @@ public class Boot extends LakeObject
     public boolean wasCaught(Hook h) {
         return true;
     }
-}
+  }
+
