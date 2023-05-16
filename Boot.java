@@ -8,4 +8,9 @@ public class Boot extends LakeObject
     {
       return "You now have a boot!";
     }
+
+    @Override
+    public boolean wasCaught(Hook h) {
+        return true;
+    }
 }
