@@ -3,5 +3,9 @@
  */
 public class Wallet extends LakeObject
 {
-
+    @Override
+    public String say()
+    {
+      return "You now have a wallet!";
+    }
 }

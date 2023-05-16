@@ -3,5 +3,9 @@
  */
 public class Boot extends LakeObject
 {
-
+    @Override
+    public String say()
+    {
+      return "You now have a boot!";
+    }
 }
